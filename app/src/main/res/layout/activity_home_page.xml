@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".HomePage">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compass and GPS Tracker"
+        android:background="#fff"
+        android:textSize="30sp"
+        android:id="@+id/tv1"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-40dp"
+        android:layout_weight="1"
+        android:id="@+id/imgview"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:max="100"
+        android:visibility="visible"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#0C0906"
+        android:layout_marginBottom="70dp"
+        android:visibility="invisible" />
+</LinearLayout>
